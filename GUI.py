@@ -192,7 +192,7 @@ def clean_tables_function():
 
     clean_all_tables_button = Button(clean_table_window,
                                 text="Clean all tables",
-                                command=clean_table_internal)
+                                command=clean_all_tables)
     clean_all_tables_button.grid(column=1, row=2)
 
 
